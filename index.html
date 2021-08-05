@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashi Fitness</title>
+</head>
+    <link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        color:white;
+    margin:0px;
+    padding:0px;
+    background:url('img/pics.jpg');
+    background-size: 70%;
+    
+    }
+    .left{
+        
+        display:inline-block;
+        position:absolute;
+        left:60px;
+        top:20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .left div{
+        text-align: center;
+        
+    }    
+    .mid{
+        
+        display:block;
+        width:33%;
+        margin:20px auto;
+        top:20px;
+        
+
+
+    }
+    .right{
+        
+        position:absolute;
+        right:34px;
+        top:20px;
+        display:inline block;
+    }
+    .left img{
+        width:36px;
+        margin:auto;
+    
+        filter:invert(100);
+
+    }
+    
+    .navbar{
+        display:inline-block;
+        font-size: 15px;
+        
+    }
+    .navbar li{
+        display:inline;
+        
+        
+    }
+    .navbar li a {
+        text-decoration: none;
+        color:white;
+        padding:34px 19px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration:underline;
+        color:gray;
+        
+    }
+    .btn{
+        border:none;
+        margin: 0px 9px;
+        background-color: black;
+        color:white;
+        border-radius: 10px;
+        border:2px solid gray;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .btn:hover{
+        background-color:grey;
+
+    }
+    .container button{
+        display:block;
+        width:74%;
+        margin: 20px auto;
+        border-radius: 20px;
+        padding:10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    }
+    .container{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin:50px 99px;
+        padding:20px 63px 16px 78px;
+        border:2px solid white;
+         border-radius: 10px;
+         color:white;
+         cursor:pointer; 
+         background-color: black;
+         font-size:10px;
+         width:300px;
+         }
+         .form-group input{
+             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             text-align: center;
+             display:block;
+             width:300px;
+             padding:1px;
+             border:2px solid black;
+            
+             border-radius: 8px;
+             font-size: 20px;
+
+         }
+
+</style>
+
+<body>
+    <header class="header">
+<div class="left">
+<img src="img/image.png" alt ="">
+<div>Yashi Fitness</div>
+</div>
+<div class="mid">
+<ul class="navbar">
+    <li><a href ="#">Home</a></li>
+    <li><a href ="#">About Us</a></li>
+    <li><a href ="#">Fitness Calculator</a></li>
+    <li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+<div class="right">
+<button class="btn">Call us now</button>
+<button class="btn">Email Us</button>
+</div>
+<div class="container">
+  <h1>Join the best Gym of Hathras Now</h1>  
+    <form action =noaction.php>
+        <div class="form-group">
+            <input type="text"name =" "placeholder="Enter your name">
+        </div>
+        <div class="form-group"><input type="text"name =" "placeholder="Enter your age">
+
+        </div>
+        <div class="form-group">
+            <input type="text"name =" "placeholder="Enter your gender">
+        </div>
+        <div class="form-group">
+            <input type="text"name =" "placeholder="Enter your locality">
+        </div>
+        <button class="btn">Submit</button>
+
+    </form>
+
+</div>
+
+
+
+
+    </header>
+</body>
+</html>
